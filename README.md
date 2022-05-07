@@ -17,7 +17,6 @@ pip install -r requirements.txt
 python translate.py
 ```
 The application will start running on https://127.0.0.1:5004/translate
-ctrl+c will kill this process
 
 ## API Reference
 HTTP URL/ Route
