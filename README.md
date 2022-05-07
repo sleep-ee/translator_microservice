@@ -1,7 +1,7 @@
 # Translator Microservice
 
 ## Description
-A microservice to translate text from the detected language it is in to a new language as specified. 
+A microservice to translate text from its detected language to a new language as specified. 
 
 ## How to Use
 ### Requirements
