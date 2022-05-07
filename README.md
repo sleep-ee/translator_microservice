@@ -20,24 +20,25 @@ The application will start running on https://127.0.0.1:5004/translate
 ctrl+c will kill this process
 
 ## API Reference
-HTTP URL
+HTTP URL/ Route
 ```
 http://127.0.0.1:5004/translate
-```
-ROUTES
-```
 POST /translate
 ```
-This microservice takes a POST HTTP request with request JSON body structured as follows:
+Sample POST Request
 ```
-{
-  'text': 'hola, como estas',
-  'language': 'english'
+POST /translate HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+{ 
+         'language' : “spanish” ,
+         'text': “i like computers"
 }
+
 ```
-The response will be in JSON and be structured like the following:
+Sample Response
 ```
 {
-  'text': 'hi, how are you'
+  'text': "me gusta computadoras"
 }
 ```
